@@ -1,6 +1,7 @@
 # airbnb-clone
 Airbnb clone is a onepage html and css project replicating a page on the official **Airbnb** website
 > https://www.airbnb.com/host/homes
+
 The project is the exact replica of the contents on the page link above as at 23 - 01 - 2019.
 
 ## Author
