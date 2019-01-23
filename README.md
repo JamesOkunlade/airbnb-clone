@@ -18,4 +18,5 @@ CSS Reset
 
 ## Setup
 > Open your git bash and **cd** to the location you'd like to put your files the run the command below.
+
 `git clone https://github.com/ljblunts/airbnb-clone.git`
