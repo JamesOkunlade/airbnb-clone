@@ -1,5 +1,18 @@
+a {
+  color: #008489 !important;
+}
+.raleway-font {
+    font-family: 'Raleway', sans-serif;
+}
+.quote {
+  margin: 0;
+  padding: 0;
+  line-height: 50px ;
+  font-size: 100px;
+  color: rgb(253, 179, 43);
+
+}
 header {
-  /* background: blue; */
   padding: 0px 60px !important;
   height: 82px;
   /* box-shadow: 1px 1px 2px 2px #ccc; */
@@ -9,17 +22,33 @@ nav img {
 }
 
 .banner-container {
+  position: relative;
+  margin: 0 auto;
+  height: 625px;
+  width: 84%;
   padding: 0 143.5px;
+  background-image: url("../images/banner1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lj-form-container {
+  width: 450px;
 }
 
-.form-container {
-  border: 3px solid #000;
-}
+
 .content-container {
   padding: 0 411px;
 }
 .second-container {
   padding: 0 311px;
+}
+
+.got-you-covered li {
+  padding: 8px 0;
+}
+.got-you-covered i {
+  padding: 0 12px;
+  color: #008489;
 }
 
 footer {
