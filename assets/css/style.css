@@ -1,5 +1,5 @@
 a {
-  color: #484848 !important;
+  color: #008489;
 }
 a .active {
   color: #008489;
@@ -16,10 +16,15 @@ a .active {
 
 }
 header {
-  position: relative;
   padding: 0px 60px !important;
   height: 82px;
+  position: relative;
+  /* position: fixed; */
   /* box-shadow: 1px 1px 2px 2px #ccc; */
+}
+.relative-container {
+  position: relative;
+
 }
 header ul li {
   display: inline-block;
@@ -30,8 +35,11 @@ nav img {
 }
 nav a {
   padding: 15px;
+  color: #484848;
 }
-.btn-small {
+
+
+.btn-small, .btn-medium {
   background: red;
 }
 
@@ -70,4 +78,26 @@ footer {
 
 .footer-brand img {
   width: 28px;
+}
+
+@media (max-width:993px) {
+  .banner-container {
+    height: 625px;
+    width: 100%;
+  }
+  .content-container {
+    padding: 0 150px;
+  }
+  .second-container {
+    padding: 0;
+  }
+  footer {
+    padding: 0 30px !important;
+  }
+
+
+}
+
+@media (max-width:600px) {
+
 }

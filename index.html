@@ -39,8 +39,9 @@
 </head>
 
 <body>
-  <header>
-    <div class="flex-panel float-right lj-right margin-right">
+  <header class="lj-mobile-hide lj-tablet-hide">
+    <div class="">
+      <div class="flex-panel float-right lj-right margin-right">
       <ul>
         <li>
           <p>Monthly potential</p>
@@ -52,7 +53,7 @@
         </li>
       </ul>
     </div>
-    <nav class="lj-left margin-left">
+      <nav class="lj-left margin-left">
       <a href="#">
         <img src="assets/images/logo.png" alt="logo">
       </a>
@@ -69,6 +70,7 @@
         Financials
       </a>
     </nav>
+    </div>
   </header>
   <div class="banner-container">
     <!-- <div class="image-container">
@@ -76,7 +78,7 @@
     </div> -->
     <div class="lj-row">
       <div class="lj-col l6">
-        <div class="lj-form-container lj-right margin-right">
+        <div class="lj-form-container lj-right margin-right lj-mobile-hide lj-tablet-hide">
           <form class="" action="index.html" method="post">
             <h2>Earn money as an Airbnb host</h2>
             <h4>Find out what you could earn</h4>
@@ -84,14 +86,14 @@
               <input type="text" name="location" placeholder="Location">
             </div>
             <div class="form-row">
-              <div class="form-col l8">
+              <div class="form-col l7">
                 <select id="inputState" class="form-control">
                   <option>Entire place</option>
                   <option>Private room</option>
                   <option>Shared room</option>
                 </select>
               </div>
-              <div class="form-col l4 ">
+              <div class="form-col l4 lj-offset1">
                 <select id="inputState" class="form-control">
                   <option>1 guest</option>
                   <option>2 guests</option>
@@ -119,7 +121,7 @@
                 <p>per month</p>
               </div>
               <div class="form-col l5 ">
-                <input type="button" name="start" value="Get started">
+                <input type="button" name="start" value="Get started" class="btn-medium">
               </div>
             </div>
 
@@ -147,7 +149,7 @@
     </div>
     <div class="lj-row-padding">
       <div class="lj-col l4 m12 s12">
-        <div class="lj-badge">
+        <div class="num">
           <h3>1</h3>
         </div>
         <h3>List your space for free</h3>
@@ -155,7 +157,7 @@
       </div>
 
       <div class="lj-col l4 m12 s12">
-        <div class="lj-badge">
+        <div class="num">
           <h3>2</h3>
         </div>
         <h3>Decide how you want to host</h3>
@@ -163,7 +165,7 @@
       </div>
 
       <div class="lj-col l4 m12 s12">
-        <div class="lj-badge">
+        <div class="num">
           <h3>3</h3>
         </div>
         <h3>Welcome your first guest</h3>
@@ -172,7 +174,7 @@
       </div>
     </div>
     <div class="lj-row-padding">
-      <div class="lj-col l6 m12 s12">
+      <div class="lj-col l6 m6 s12">
         <div class="quote">
           “
         </div>
@@ -180,7 +182,7 @@
           The Host Guarantee helped me decide to join Airbnb because I have it to fall back on if there's damage or problems.</h2>
         <p>Dennis hosts in London for the flexibility it provides</p>
       </div>
-      <div class="lj-col l6 m12 s12">
+      <div class="lj-col l6 m6 s12">
         <img src="assets/images/square-image1.png" alt="square img">
 
       </div>
@@ -232,10 +234,10 @@
       </div>
     </div>
     <div class="lj-row-padding">
-      <div class="lj-col l6 m12 s12">
+      <div class="lj-col l6 m6 s12">
         <img src="assets/images/square-image2.png" alt="square img">
       </div>
-      <div class="lj-col l6 m12 s12">
+      <div class="lj-col l6 m6 s12">
         <div class="quote">
           “
         </div>
@@ -327,7 +329,7 @@
       </div>
     </div>
   </div>
-  <hr>
+  <hr class="margin-top">
   <footer>
     <div class="lj-row-padding lj-mobile-hide">
       <div class="lj-col l3">
